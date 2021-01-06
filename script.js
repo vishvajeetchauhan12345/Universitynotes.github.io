@@ -17,7 +17,7 @@ function SlideShow() {
 	setTimeout(SlideShow,6000);
 }
 
-/*
+
 //body onload function
 function setCookie(cname,cvalue,exdays) {
   var d = new Date();
@@ -54,7 +54,6 @@ function checkCookie() {
   }
 }
 
-*/
 /*
 function myscale() {
   var elem = $("body");
