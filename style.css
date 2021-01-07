@@ -3392,6 +3392,7 @@ color: white;
 	margin-top: 0vw;
 	background-color: rgba(19, 18, 72,0.5);
 	box-shadow: 0px 2px 18px 0px #ddd;
+	overflow: hidden;
 }
 .hover:hover .discription-menu *{
 	color: rgb(141,146,141);
@@ -3404,6 +3405,7 @@ color: white;
 	font-size: 1.2vw;
  	font-family: monospace;
  	color: rgb(141,146,141);
+ 	overflow-y: hidden;
 }
  /*bottom container*/
   .Container-14 .Cont14-row-2{
