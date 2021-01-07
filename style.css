@@ -3163,6 +3163,7 @@ color: white;
    	font-size: 1.4vw;
    	font-weight: bold;
    	border-radius: 0.4vw;
+   	cursor: pointer;
    }
 .Container-13 .Custom form fieldset .form-control-1 .fa{
    	position: absolute;
@@ -3187,6 +3188,7 @@ color: white;
    	font-size: 1.4vw;
    	border-radius: 0.4vw;
    	font-weight: bold;
+   	cursor: pointer;
    }
 .Container-13 .Custom form fieldset .form-control-1 #reset:hover{
 	box-shadow: 0px 2px 12px 0px;
