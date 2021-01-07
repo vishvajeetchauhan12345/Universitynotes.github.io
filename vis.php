@@ -8,7 +8,7 @@ if (isset($_POST['fname'])) {
     $txt=$_POST['txt'];
    
 
-                $conx=mysqli_connect("https://github.com","root","","vishdata");
+                $conx=mysqli_connect("https://github.com","main","","vishdata");
             if (mysqli_connect_errno()) {
                 printf("Connect failed: %s\n", mysqli_connect_error());
                 exit();
