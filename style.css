@@ -1837,9 +1837,9 @@ html{
 	font-size: 1.4vw;
 	font-weight: bold;
 	font-family: monospace;
-	color: rgb(66, 0, 3);
-	/*color: rgb(66, 66, 72);
-	color: black;*/
+	/*color: rgb(66, 0, 3);
+	color: rgb(66, 66, 72);*/
+	color:white;
 }
 
 .Container-2{
