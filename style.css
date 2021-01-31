@@ -894,13 +894,14 @@ html{
 	align-content: center;
 	place-items:center;
 	animation-name: moveup;
-	animation-duration: 10s;
-	transition-delay: 0.02s;
+	animation-duration: 15s;
+	transition-delay: 0.08s;
 	animation-delay: 0.02s;
 	animation-iteration-count: infinite;
 }
 .Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover a{
-	animation-delay: 10s;
+	animation-delay: 30s;
+	transition-delay: 30s;
 }
 @keyframes moveup{
 	from{transform: translateY(5vw);}
@@ -953,6 +954,7 @@ html{
 }
 .Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover a{
 	color: white;
+	transition-delay: 30s;
 }
 
 
