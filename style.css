@@ -899,6 +899,9 @@ html{
 	animation-delay: 0.02s;
 	animation-iteration-count: infinite;
 }
+.Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover a{
+	animation-delay: 10s;
+}
 @keyframes moveup{
 	from{transform: translateY(5vw);}
 	to{
