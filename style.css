@@ -1830,10 +1830,10 @@ html{
 .header-container .discription-container header{
 	width:60vw;
 	height: 5vw;
-	font-size: 3.4vw;
-	text-shadow: 0vw 0.5vw 0vw #ddd;
+	font-size: 3.2vw;
+	text-shadow: 0vw 0.3vw 0vw #ddd;
 	font-weight: bold;
-	font-family: "Times New";
+	font-family: verdana;
 	color: rgb(82, 12, 57);
 }
 .header-container .discription-container p{
@@ -3235,7 +3235,6 @@ color: white;
   	color: black;
   	text-shadow: 2px 2px 6px white;
   	scale:1.0;
-  	background-image: url(vish.jpg);
   }
   .Container-14 .Cont14-row-1:hover .Cont14-Col-1:hover .Master .fa{
   	color: white;
