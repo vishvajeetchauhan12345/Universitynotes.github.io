@@ -1820,7 +1820,7 @@ html{
 	border-radius: 25vw;
 }
 .header-container .discription-container{
-	width:60vw;
+	width:70vw;
 	height:15vw;
 	display: grid;
 	justify-content: center;
@@ -1828,7 +1828,7 @@ html{
 	place-items:center;
 }
 .header-container .discription-container header{
-	width:60vw;
+	width:70vw;
 	height: 5vw;
 	font-size: 3.2vw;
 	text-shadow: 0vw 0.3vw 0vw #ddd;
@@ -1837,7 +1837,7 @@ html{
 	color: rgb(82, 12, 57);
 }
 .header-container .discription-container p{
-	width:60vw;
+	width:70vw;
 	height: 10vw;
 	font-size: 1.4vw;
 	font-weight: bold;
