@@ -894,12 +894,14 @@ html{
 	align-content: center;
 	place-items:center;
 	animation-name: moveup;
-	animation-duration: 10s;
+	animation-duration: 20s;
 	animation-iteration-count: infinite;
 }
-.Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover {
-	animation-delay: 30s;
-	transition-delay: 30s;
+.Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover{
+	animation-play-state: paused;
+}
+.Row-Container-3 .Row-Col-3 .Row-Col-list-31 ul li:hover{
+	animation-play-state: paused;
 }
 @keyframes moveup{
 	from{transform: translateY(5vw);}
@@ -952,7 +954,6 @@ html{
 }
 .Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover a{
 	color: white;
-	transition-delay: 30s;
 }
 
 
