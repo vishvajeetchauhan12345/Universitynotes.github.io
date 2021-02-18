@@ -1813,7 +1813,6 @@ html{
 	text-decoration: none;
 	color:rgb(139, 139, 142);
 	font-size: 1.2vw;
-	z-index: 1;
 }
 .header-container .logo-container a img{
 	width: 25vw;
