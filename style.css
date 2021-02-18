@@ -3228,7 +3228,9 @@ color: white;
  	height: 15vw;
  	display: grid;
  	place-items:center;
- 	background-image: url(vish.jpg);
+ 	/*background-image: url(vish.jpg);
+ 	background-size: cover;
+ 	border-radius: 15vw;*/
  }
   .Container-14 .Cont14-row-1 .Cont14-Col-1 .Master .fa{
   	font-size: 15vw;
