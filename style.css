@@ -1813,11 +1813,42 @@ html{
 	text-decoration: none;
 	color:rgb(139, 139, 142);
 	font-size: 1.2vw;
+	z-index: 1;
 }
 .header-container .logo-container a img{
 	width: 25vw;
 	height: 25vw;
 	border-radius: 25vw;
+	z-index: 1;
+	box-shadow: 0vw 0.3vw 2.8vw 0.3vw #ddd;
+	animation-name: icon;
+	animation-play-state: running;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	transform: rotate3d(120,120,210);
+}
+@keyframes icon{
+	0%,9%{
+		transform: rotate(0deg);
+	}
+	10%,90%{
+		transform: rotateZ(360deg);
+	}
+	10%,90%{
+		transform: rotateY(360deg);
+	}
+	10%,90%{
+		transform: rotateX(360deg);
+	}
+	10%,90%{
+		transform: rotateZ(360deg);
+	}
+	10%,90%{
+		transform: rotateX(360deg);
+	}
+	90%,100%{
+		transform: rotateY(0deg);
+	}
 }
 .header-container .discription-container{
 	width:70vw;
