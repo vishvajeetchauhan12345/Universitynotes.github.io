@@ -2360,17 +2360,22 @@ html{
 }
 .Container-5 .Cont5-container-1 .Cont5-col:hover .aboutpic p{
     width: 25vw;
-	height: 50vw;
+	height: 46vw;
 	display: grid;
 	justify-content: center;
 	align-content: center;
 	place-items:center;
 	scale:0.6;
 	font-size: 1.8vw;
-	color: black;
+	background-color:rgba(30,100,18,0.5);
+	text-align: center;
+	padding: 0.2vw;
+	color: white;
 	animation-name: textmove;
 	animation-duration: 2.5s;
 	animation-iteration-count: initial;
+	z-index: 1;
+	box-shadow: 0vw 0.3vw 1.8vw 0vw  #ddd;
 	/*animation-delay:0.4s;
 	transition: all 0.2s ease-in;*/
 	overflow: hidden;
@@ -2442,7 +2447,7 @@ html{
 }
 .Container-5 .Cont5-container-2 .Cont5-col-2:hover .aboutpic p{
     width: 25vw;
-	height: 45vw;
+	height: 30vw;
 	display: grid;
 	justify-content: center;
 	align-content: center;
@@ -2453,9 +2458,14 @@ html{
 	animation-name: textmove1;
 	animation-duration: 2.5s;
 	animation-iteration-count: initial;
+	text-align: center;
+	padding: 0.2vw;
 	/*animation-delay:0.4s;
 	transition: all 0.2s ease-in;*/
 	overflow: hidden;
+	z-index: 1;
+	box-shadow: 0vw 0.3vw 1.8vw 0vw #ddd;
+	background-color: rgba(25,125,255,0.6);
 }
 
 @keyframes textmove1{
