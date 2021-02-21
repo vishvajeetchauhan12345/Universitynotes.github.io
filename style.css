@@ -1913,6 +1913,8 @@ html{
  	color: white;
  	font-family: monospace;
  	margin-left: 2vw;
+ 	z-index: 1;
+ 	text-shadow: 0.4vw 0.4vw 1vw red;
  }
  .SlideShow-container .MySlides p.p2{
  	position: absolute;
@@ -1923,9 +1925,11 @@ html{
  	justify-content: center;
  	align-content: center;
  	font-size: 2.4vw;
- 	color:black;
+ 	color:white;
  	font-family: monospace;
  	margin-left: 2vw;
+ 	z-index: 1;
+ 	text-shadow: 0.4vw 0.4vw 1vw red;
  }
  .Container-2 .major-list-container{
  	width: 100vw;
@@ -3267,13 +3271,45 @@ color: white;
   	color: black;
   	text-shadow: 2px 2px 6px white;
   	scale:1.0;
+  	z-index: 1;
+    animation-name: master;
+    animation-duration: 3s;
+    transition-delay: all 1s ease-in;
+    animation-iteration-count: infinite;
+  }
+  @keyframes master{
+  	0%{}
+  	9%,30%{
+  		color:green;
+  		 text-decoration-line: underline;
+         text-decoration-style: wavy;
+  		text-shadow: 2px 2px 6px red;
+  		background-image:linear-gradient(to white,red);
+  		animation-delay: 1s;
+  	}
+  	30%,60%{
+  		color: white;
+  		text-decoration-line: underline;
+         text-decoration-style: wavy
+  		text-shadow: 2px 2px 6px blue;
+  		background-image:linear-gradient(to green,red);
+  		animation-delay: 1s;
+  	}
+  	60%,90%{
+  		color:red;
+  		text-decoration-line: underline;
+         text-decoration-style: wavy;
+  		text-shadow: 2px 2px 6px green;
+  		background-image:linear-gradient(to green,white);
+  		animation-delay: 1s;
+  	}
   }
   .Container-14 .Cont14-row-1:hover .Cont14-Col-1:hover .Master .fa{
   	color: white;
   	transition: all 0.3s ease-in;
   }
   .Container-14 .Cont14-row-1:hover .Cont14-Col-1:hover .Master .fa:hover{
-  	transform: scale(1.2);
+  	transform: scale(1.18);
   }
 .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master{
  	width: 25vw;
