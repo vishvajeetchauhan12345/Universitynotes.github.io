@@ -3271,38 +3271,6 @@ color: white;
   	color: black;
   	text-shadow: 2px 2px 6px white;
   	scale:1.0;
-  	z-index: 1;
-    animation-name: master;
-    animation-duration: 3s;
-    transition-delay: all 1s ease-in;
-    animation-iteration-count: infinite;
-  }
-  @keyframes master{
-  	0%{}
-  	9%,30%{
-  		color:green;
-  		 text-decoration-line: underline;
-         text-decoration-style: wavy;
-  		text-shadow: 2px 2px 6px red;
-  		background-image:linear-gradient(to white,red);
-  		animation-delay: 1s;
-  	}
-  	30%,60%{
-  		color: white;
-  		text-decoration-line: underline;
-         text-decoration-style: wavy
-  		text-shadow: 2px 2px 6px blue;
-  		background-image:linear-gradient(to green,red);
-  		animation-delay: 1s;
-  	}
-  	60%,90%{
-  		color:red;
-  		text-decoration-line: underline;
-         text-decoration-style: wavy;
-  		text-shadow: 2px 2px 6px green;
-  		background-image:linear-gradient(to green,white);
-  		animation-delay: 1s;
-  	}
   }
   .Container-14 .Cont14-row-1:hover .Cont14-Col-1:hover .Master .fa{
   	color: white;
