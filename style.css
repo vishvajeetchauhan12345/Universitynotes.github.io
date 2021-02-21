@@ -62,6 +62,7 @@ html{
 	width: 60vw;
 	height: 5vw;
 	margin-left:0px;
+	margin-top: 0px;
 	display:inline-flex;
 	place-items:center;
 	justify-content: center;
