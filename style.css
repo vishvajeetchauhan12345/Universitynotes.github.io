@@ -80,6 +80,7 @@ html{
 	place-items:center;
 	justify-content: center;
 	align-content: center;
+	border-left: 0.15vw solid rgb(19, 18, 20);
 
 }
 .header-container .button-container ul li:last-child{
@@ -690,7 +691,8 @@ html{
 	height: 3vw;
 	display: grid;
 	place-items:center;
-	color:rgb(129, 129, 138);
+	/*color:rgb(129, 129, 138);*/
+	color: white;
 	font-size:1.6vw;
 }
 .Row-Container .Row-Col .Row-Col-list{
@@ -774,7 +776,8 @@ html{
 	height: 3vw;
 	display: grid;
 	place-items:center;
-	color:rgb(129, 129, 138);
+	/*color:rgb(129, 129, 138);*/
+	color: white;
 	font-size:1.6vw;
 }
 .Row-Container-2 .Row-Col-2 .Row-Col-list-2{
@@ -862,7 +865,8 @@ html{
 	place-items:center;
 	justify-content: center;
 	align-content: center;
-	color:rgb(129, 129, 138);
+	/*color:rgb(129, 129, 138);*/
+	color: white;
 	font-size:1.6vw;
 	margin: auto;
 }
