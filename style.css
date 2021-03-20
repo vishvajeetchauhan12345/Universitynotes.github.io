@@ -74,7 +74,7 @@ html{
 }
 .header-container .button-container ul li{
 	background-color: transparent;
-	height: 5vw;
+	height: 4.5vw;
 	width: 10vw;
 	display: grid;
 	place-items:center;
@@ -88,7 +88,7 @@ html{
 	transition: all 0.3s ease-in;
 }
 .header-container .button-container ul li:hover{
-	background-color: rgb(30, 5, 143);
+	/*background-color: rgb(30, 5, 143);*/
 	border:1px solid #ddd;
 }
 .header-container .button-container ul li a{
