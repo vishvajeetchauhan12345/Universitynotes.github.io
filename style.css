@@ -92,7 +92,8 @@ html{
 }
 .header-container .button-container ul li a{
 	text-decoration: none;
-	color:rgb(139, 139, 142);
+	/*color:rgb(139, 139, 142);*/
+	 color: white;
 	font-size: 1.2vw;
 }
 .header-container .button-container ul li a .fa{
@@ -3307,7 +3308,8 @@ color: white;
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-1  .about-Master .contact-master .m-logo a{
  	text-decoration: none;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
+ 	color:white;
  	display: grid;
  	place-items:center;
 }
@@ -3332,7 +3334,8 @@ color: white;
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master p{
  	font-size: 1.2vw;
  	font-family: monospace;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
+ 	color: white;
  } 
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master  a{
  	text-decoration: none;
@@ -3345,12 +3348,13 @@ color: white;
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master address{
  	font-size: 1.2vw;
  	font-family: monospace;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
+ 	color: white;
  }
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master header{
  	font-size: 1.6vw;
  	font-family: monospace;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
  	font-weight: bold;
  } 
   .Container-14 .Cont14-row-1 .Cont14-Col-1:hover .about-Master p{
@@ -3382,7 +3386,8 @@ color: white;
 	place-items:center;
 	font-size: 2.2vw;
  	font-weight: bold;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
+ 	color: white;
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-2 .Col2-row header .fa{
 	margin-left: 23vw;
@@ -3406,7 +3411,8 @@ color: white;
 .Container-14 .Cont14-row-1 .Cont14-Col-2 .Col2-row ul li a{
 	text-decoration: none;
 	font-size: 1.2vw;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
+ 	color: white;
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-2 .Col2-row ul li:hover a{
 	border-bottom:1px solid white;
@@ -3443,7 +3449,8 @@ color: white;
 	place-items:center;
 	font-size: 1.2vw;
  	font-family: monospace;
- 	color: rgb(141,146,141);
+ 	/*color: rgb(141,146,141);*/
+ 	color: white;
  	overflow-y: hidden;
 }
  /*bottom container*/
@@ -3474,7 +3481,8 @@ color: white;
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 .Cont14-header header{
    font-size: 2.2vw;
-   color: rgb(141,146,141);
+   /*color: rgb(141,146,141);*/
+   color: white;
    font-weight: bold;
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 .Cont14-header .fa{
@@ -3502,7 +3510,8 @@ color: white;
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 ul li a{
 	text-decoration: none;
 	font-size: 1.3vw;
-   color: rgb(141,146,141);
+   /*color: rgb(141,146,141);*/
+   color: white;
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 ul li a .fa{
 	margin-left: 10px;
@@ -3550,7 +3559,8 @@ transition: all 0.3s ease-in;
   	display: grid;
   	place-items:center;
   	font-size: 1.3vw;
-    color: rgb(141,146,141);
+    /*color: rgb(141,146,141);*/
+    color: white;
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-2 .university-about p .fa{
 	font-size: 2.4vw;
