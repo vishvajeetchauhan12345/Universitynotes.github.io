@@ -832,7 +832,7 @@ html{
 	background-color: rgb(19, 18, 72);
 	margin-right: 0vw;
 	margin-left: -40vw;
-	margin-top: 4.65vw;
+	margin-top: 4.6vw;
 	border:1px solid #ddd;
 }
 
@@ -1066,7 +1066,7 @@ html{
 	height:21vw;
 	background-color: rgb(19, 18, 72);
 	margin-left: -2vw;
-	margin-top: 4.8vw;
+	margin-top: 4.5vw;
 	border-radius: 0vw 0vw 2vw 0vw;
 }
 .QP:hover .dropdown-container-6 ul{
@@ -2683,7 +2683,9 @@ html{
  .Container-7{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-content: center;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2692,6 +2694,61 @@ html{
  	background-size: cover;
  	/*background-image: url(images/bgpic2.jpg);*/
  	background-color: rgb(209, 213, 209);
+ }
+ .Container-7 .Cont7-container-nov{
+ 	width: 30vw;
+  	height: 40vw;
+  	display: grid;
+  	place-items:center;
+  	background-color: black;
+  	margin:auto;
+ }
+ .Container-7 .Cont7-container-nov .nov-card{
+ 	width: 30vw;
+  	height: 20vw;
+  	display: flex;
+  	place-items:center;
+  	justify-content: center;
+  	background-color:transparent;
+  	margin: auto;
+ }
+ .Container-7 .Cont7-container-nov .nov-card .novcard-img{
+ 	width: 14vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-7 .Cont7-container-nov .nov-card .novcard-img img{
+ 	background-size: cover;
+ 	width: 14vw;
+  	height: 18vw;
+ 	background-position: center;
+ }
+ .Container-7 .Cont7-container-nov .nov-card .novcard-discription{
+ 	width: 15vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	padding: 0.3vw;
+ }
+ .Container-7 .Cont7-container-nov .nov-card .novcard-discription header{
+ 	font-weight: bold;
+ 	font-size: 1.4vw;
+ 	color: white;
+ 	width: 15vw;
+  	height: 1.8vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-7 .Cont7-container-nov .nov-card .novcard-discription p{
+ 	font-weight: bold;
+ 	font-size: 1.0vw;
+ 	color: white;
+ 	font-family: courier;
+ 	width: 16vw;
+  	height: 15vw;
+  	display: grid;
+  	place-items:center;
  }
   .Container-7 .Cont7-container{
   	width: 50vw;
@@ -2753,7 +2810,8 @@ html{
  .Container-8{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
+ 	justify-content: center;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2762,6 +2820,61 @@ html{
  	background-size: cover;
  /*	background-image: url(images/bgpic10.jpg);*/
  	background-color: rgb(209, 213, 209);
+ }
+ .Container-8 .Cont8-container-nov{
+ 	width: 30vw;
+  	height: 40vw;
+  	display: grid;
+  	place-items:center;
+  	background-color: black;
+  	margin:auto;
+ }
+ .Container-8 .Cont8-container-nov .nov-card{
+ 	width: 30vw;
+  	height: 20vw;
+  	display: flex;
+  	place-items:center;
+  	justify-content: center;
+  	background-color:transparent;
+  	margin: auto;
+ }
+ .Container-8 .Cont8-container-nov .nov-card .novcard-img{
+ 	width: 14vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-8 .Cont8-container-nov .nov-card .novcard-img img{
+ 	background-size: cover;
+ 	width: 14vw;
+  	height: 18vw;
+ 	background-position: center;
+ }
+ .Container-8 .Cont8-container-nov .nov-card .novcard-discription{
+ 	width: 15vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	padding: 0.3vw;
+ }
+ .Container-8 .Cont8-container-nov .nov-card .novcard-discription header{
+ 	font-weight: bold;
+ 	font-size: 1.4vw;
+ 	color: white;
+ 	width: 15vw;
+  	height: 1.8vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-8 .Cont8-container-nov .nov-card .novcard-discription p{
+ 	font-weight: bold;
+ 	font-size: 1.0vw;
+ 	color: white;
+ 	font-family: courier;
+ 	width: 16vw;
+  	height: 15vw;
+  	display: grid;
+  	place-items:center;
  }
  .Container-8 .Cont8-container{
  	width: 50vw;
@@ -2819,7 +2932,8 @@ color: white;
  .Container-9{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
+ 	justify-content: center;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2828,6 +2942,61 @@ color: white;
  	background-size: cover;
  /*background-image: url(images/bgpic22.jpg);*/
  	background-color:rgb(209, 213, 209);
+ }
+ .Container-9 .Cont9-container-nov{
+ 	width: 30vw;
+  	height: 40vw;
+  	display: grid;
+  	place-items:center;
+  	background-color: black;
+  	margin:auto;
+ }
+ .Container-9 .Cont9-container-nov .nov-card{
+ 	width: 30vw;
+  	height: 20vw;
+  	display: flex;
+  	place-items:center;
+  	justify-content: center;
+  	background-color:transparent;
+  	margin: auto;
+ }
+ .Container-9 .Cont9-container-nov .nov-card .novcard-img{
+ 	width: 14vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-9 .Cont9-container-nov .nov-card .novcard-img img{
+ 	background-size: cover;
+ 	width: 14vw;
+  	height: 18vw;
+ 	background-position: center;
+ }
+ .Container-9 .Cont9-container-nov .nov-card .novcard-discription{
+ 	width: 15vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	padding: 0.3vw;
+ }
+ .Container-9 .Cont9-container-nov .nov-card .novcard-discription header{
+ 	font-weight: bold;
+ 	font-size: 1.4vw;
+ 	color: white;
+ 	width: 15vw;
+  	height: 1.8vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-9 .Cont9-container-nov .nov-card .novcard-discription p{
+ 	font-weight: bold;
+ 	font-size: 1.0vw;
+ 	color: white;
+ 	font-family: courier;
+ 	width: 16vw;
+  	height: 15vw;
+  	display: grid;
+  	place-items:center;
  }
  .Container-9 .Cont9-container{
  	width: 50vw;
@@ -2880,7 +3049,7 @@ color: white;
  .Container-10{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2889,6 +3058,61 @@ color: white;
  	background-size: cover;
  /*	background-image: url(images/bgpic24.jpg);*/
  	background-color: rgb(209, 213, 209);
+ }
+ .Container-10 .Cont10-container-nov{
+ 	width: 30vw;
+  	height: 40vw;
+  	display: grid;
+  	place-items:center;
+  	background-color: black;
+  	margin:auto;
+ }
+ .Container-10 .Cont10-container-nov .nov-card{
+ 	width: 30vw;
+  	height: 20vw;
+  	display: flex;
+  	place-items:center;
+  	justify-content: center;
+  	background-color:transparent;
+  	margin: auto;
+ }
+ .Container-10 .Cont10-container-nov .nov-card .novcard-img{
+ 	width: 14vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-10 .Cont10-container-nov .nov-card .novcard-img img{
+ 	background-size: cover;
+ 	width: 14vw;
+  	height: 18vw;
+ 	background-position: center;
+ }
+ .Container-10 .Cont10-container-nov .nov-card .novcard-discription{
+ 	width: 15vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	padding: 0.3vw;
+ }
+ .Container-10 .Cont10-container-nov .nov-card .novcard-discription header{
+ 	font-weight: bold;
+ 	font-size: 1.4vw;
+ 	color: white;
+ 	width: 15vw;
+  	height: 1.8vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-10 .Cont10-container-nov .nov-card .novcard-discription p{
+ 	font-weight: bold;
+ 	font-size: 1.0vw;
+ 	color: white;
+ 	font-family: courier;
+ 	width: 16vw;
+  	height: 15vw;
+  	display: grid;
+  	place-items:center;
  }
  .Container-10 .Cont10-container{
  	width: 50vw;
@@ -2950,6 +3174,61 @@ color: white;
  	background-size: cover;
  	/*background-image: url(images/bgpic8.jpg);*/
  	background-color: rgb(209, 213, 209);
+ }
+ .Container-11 .Cont11-container-nov{
+ 	width: 30vw;
+  	height: 40vw;
+  	display: grid;
+  	place-items:center;
+  	background-color: black;
+  	margin:auto;
+ }
+ .Container-11 .Cont11-container-nov .nov-card{
+ 	width: 30vw;
+  	height: 20vw;
+  	display: flex;
+  	place-items:center;
+  	justify-content: center;
+  	background-color:transparent;
+  	margin: auto;
+ }
+ .Container-11 .Cont11-container-nov .nov-card .novcard-img{
+ 	width: 14vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-11 .Cont11-container-nov .nov-card .novcard-img img{
+ 	background-size: cover;
+ 	width: 14vw;
+  	height: 18vw;
+ 	background-position: center;
+ }
+ .Container-11 .Cont10-container-nov .nov-card .novcard-discription{
+ 	width: 15vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	padding: 0.3vw;
+ }
+ .Container-11 .Cont11-container-nov .nov-card .novcard-discription header{
+ 	font-weight: bold;
+ 	font-size: 1.4vw;
+ 	color: white;
+ 	width: 15vw;
+  	height: 1.8vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-11 .Cont11-container-nov .nov-card .novcard-discription p{
+ 	font-weight: bold;
+ 	font-size: 1.0vw;
+ 	color: white;
+ 	font-family: courier;
+ 	width: 16vw;
+  	height: 15vw;
+  	display: grid;
+  	place-items:center;
  }
  .Container-11 .Cont11-container{
  	width: 50vw;
