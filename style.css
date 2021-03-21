@@ -2717,12 +2717,19 @@ html{
   	height: 18vw;
   	display: grid;
   	place-items:center;
+  	border-radius: 0.6vw 0vw 0.6vw;
  }
  .Container-7 .Cont7-container-nov .nov-card .novcard-img img{
  	background-size: cover;
- 	width: 14vw;
-  	height: 18vw;
+ 	width: 12vw;
+  	height: 14vw;
  	background-position: center;
+ 	box-shadow: 0px 2px 20px 0px #ddd;
+ 	border-radius: 0.6vw 0vw 0.6vw;
+ }
+ .Container-7 .Cont7-container-nov .nov-card .novcard-img img:hover{
+ 	transform: scale(1.1);
+ 	border:1px solid white;
  }
  .Container-7 .Cont7-container-nov .nov-card .novcard-discription{
  	width: 15vw;
@@ -2843,12 +2850,19 @@ html{
   	height: 18vw;
   	display: grid;
   	place-items:center;
+  	border-radius: 0.6vw 0vw 0.6vw;
  }
  .Container-8 .Cont8-container-nov .nov-card .novcard-img img{
  	background-size: cover;
- 	width: 14vw;
-  	height: 18vw;
+ 	width: 12vw;
+  	height: 14vw;
  	background-position: center;
+ 	box-shadow: 0px 2px 20px 0px #ddd;
+ 	border-radius: 0.6vw 0vw 0.6vw;
+ }
+ .Container-8 .Cont8-container-nov .nov-card .novcard-img img:hover{
+ 	transform: scale(1.1);
+ 	border:1px solid white;
  }
  .Container-8 .Cont8-container-nov .nov-card .novcard-discription{
  	width: 15vw;
@@ -2965,12 +2979,19 @@ color: white;
   	height: 18vw;
   	display: grid;
   	place-items:center;
+  	border-radius: 0.6vw 0vw 0.6vw;
  }
  .Container-9 .Cont9-container-nov .nov-card .novcard-img img{
  	background-size: cover;
- 	width: 14vw;
-  	height: 18vw;
+ 	width: 12vw;
+  	height: 14vw;
  	background-position: center;
+ 	box-shadow: 0px 2px 20px 0px #ddd;
+ 	border-radius: 0.6vw 0vw 0.6vw;
+ }
+ .Container-9 .Cont9-container-nov .nov-card .novcard-img img:hover{
+ 	transform: scale(1.1);
+ 	border:1px solid white;
  }
  .Container-9 .Cont9-container-nov .nov-card .novcard-discription{
  	width: 15vw;
@@ -3081,12 +3102,19 @@ color: white;
   	height: 18vw;
   	display: grid;
   	place-items:center;
+  	border-radius: 0.6vw 0vw 0.6vw;
  }
  .Container-10 .Cont10-container-nov .nov-card .novcard-img img{
  	background-size: cover;
- 	width: 14vw;
-  	height: 18vw;
+ 	width: 12vw;
+  	height: 14vw;
  	background-position: center;
+ 	box-shadow: 0px 2px 20px 0px #ddd;
+ 	border-radius: 0.6vw 0vw 0.6vw;
+ }
+ .Container-10 .Cont10-container-nov .nov-card .novcard-img img:hover{
+ 	transform: scale(1.1);
+ 	border:1px solid white;
  }
  .Container-10 .Cont10-container-nov .nov-card .novcard-discription{
  	width: 15vw;
@@ -3165,7 +3193,7 @@ color: white;
  .Container-11{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -3197,14 +3225,21 @@ color: white;
   	height: 18vw;
   	display: grid;
   	place-items:center;
+  	border-radius: 0.6vw 0vw 0.6vw;
  }
  .Container-11 .Cont11-container-nov .nov-card .novcard-img img{
  	background-size: cover;
- 	width: 14vw;
-  	height: 18vw;
+ 	width: 12vw;
+  	height: 14vw;
  	background-position: center;
+ 	box-shadow: 0px 2px 20px 0px #ddd;
+ 	border-radius: 0.6vw 0vw 0.6vw;
  }
- .Container-11 .Cont10-container-nov .nov-card .novcard-discription{
+ .Container-11 .Cont11-container-nov .nov-card .novcard-img img:hover{
+ 	transform: scale(1.1);
+ 	border:1px solid white;
+ }
+ .Container-11 .Cont11-container-nov .nov-card .novcard-discription{
  	width: 15vw;
   	height: 18vw;
   	display: grid;
@@ -3282,7 +3317,7 @@ color: white;
  .Container-12{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -3291,6 +3326,68 @@ color: white;
  	background-size: cover;
  	/*background-image: url(images/bgpic5.jpg);*/
  	background-color: rgb(209, 213, 209);
+ }
+ .Container-12 .Cont12-container-nov{
+ 	width: 30vw;
+  	height: 40vw;
+  	display: grid;
+  	place-items:center;
+  	background-color: black;
+  	margin:auto;
+ }
+ .Container-12 .Cont12-container-nov .nov-card{
+ 	width: 30vw;
+  	height: 20vw;
+  	display: flex;
+  	place-items:center;
+  	justify-content: center;
+  	background-color:transparent;
+  	margin: auto;
+ }
+ .Container-12 .Cont12-container-nov .nov-card .novcard-img{
+ 	width: 14vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	border-radius: 0.6vw 0vw 0.6vw;
+ }
+ .Container-12 .Cont12-container-nov .nov-card .novcard-img img{
+ 	background-size: cover;
+ 	width: 12vw;
+  	height: 14vw;
+ 	background-position: center;
+ 	box-shadow: 0px 2px 20px 0px #ddd;
+ 	border-radius: 0.6vw 0vw 0.6vw;
+ }
+ .Container-12 .Cont12-container-nov .nov-card .novcard-img img:hover{
+ 	transform: scale(1.1);
+ 	border:1px solid white;
+ }
+ .Container-12 .Cont12-container-nov .nov-card .novcard-discription{
+ 	width: 15vw;
+  	height: 18vw;
+  	display: grid;
+  	place-items:center;
+  	padding: 0.3vw;
+ }
+ .Container-12 .Cont12-container-nov .nov-card .novcard-discription header{
+ 	font-weight: bold;
+ 	font-size: 1.4vw;
+ 	color: white;
+ 	width: 15vw;
+  	height: 1.8vw;
+  	display: grid;
+  	place-items:center;
+ }
+ .Container-12 .Cont12-container-nov .nov-card .novcard-discription p{
+ 	font-weight: bold;
+ 	font-size: 1.0vw;
+ 	color: white;
+ 	font-family: courier;
+ 	width: 16vw;
+  	height: 15vw;
+  	display: grid;
+  	place-items:center;
  }
  .Container-12 .Cont12-container{
  	width: 50vw;
