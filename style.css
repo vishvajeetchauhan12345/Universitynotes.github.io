@@ -1065,7 +1065,7 @@ html{
 	width: 12vw;
 	height:21vw;
 	background-color: rgb(19, 18, 72);
-	margin-left: -2vw;
+	margin-left: 2.5vw;
 	margin-top: 4.5vw;
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1198,7 +1198,7 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 15vw;
-	margin-left: 12vw;
+	margin-left: 11.5vw;
 	margin-top: 10vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
