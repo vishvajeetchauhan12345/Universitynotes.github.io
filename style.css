@@ -115,7 +115,7 @@ html{
 	width: 20vw;
 	height:24vw;
 	background-color: rgb(19, 18, 72);
-	margin-right: 5vw;
+	margin-left: 0vw;
 	margin-top: 4.7vw;
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -213,7 +213,7 @@ html{
 	position: absolute;
 	width: 20vw;
 	height: 24vw;
-	margin-left: 20vw;
+	margin-left: 19.5vw;
 	margin-top: 1.5vw;
 	background-color: rgb(19, 18, 72);
 	outline: none;
@@ -660,7 +660,6 @@ html{
 	width: 100vw;
 	height:30vw;
 	background-color: rgb(19, 18, 72);
-	margin-right: 0vw;
 	margin-left: -20vw;
 	margin-top: 4.65vw;
 	border:1px solid #ddd;
@@ -745,7 +744,6 @@ html{
 	width: 100vw;
 	height:30vw;
 	background-color: rgb(19, 18, 72);
-	margin-right: 0vw;
 	margin-left: -30vw;
 	margin-top: 4.65vw;
 	border:1px solid #ddd;
@@ -1065,7 +1063,7 @@ html{
 	width: 12vw;
 	height:21vw;
 	background-color: rgb(19, 18, 72);
-	margin-left: 2.5vw;
+	margin-left: -2vw;
 	margin-top: 4.5vw;
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1158,7 +1156,7 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 18vw;
-	margin-left: 12vw;
+	margin-left: 11.5vw;
 	margin-top: 1.5vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
@@ -1199,7 +1197,7 @@ html{
 	width: 15vw;
 	height: 15vw;
 	margin-left: 11.5vw;
-	margin-top: 10vw;
+	margin-top: 0vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
