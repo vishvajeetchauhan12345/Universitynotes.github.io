@@ -8693,7 +8693,7 @@ CEO, Galgotias University.Charismatic and an out of box thinker, Dhruv Galgotia 
 		<form  action="" method="POST" autocomplete>
 			<fieldset>
 				<legend>Leave Your Massae</legend>
-				<small id="small">successful</small>
+				<small id="small">inserted successful</small>
 				<div class="form-control">
 					<label>First Name :</label>
 					<input type="text" name="fname" placeholder="First Name" required id="fname" />
@@ -8726,7 +8726,7 @@ CEO, Galgotias University.Charismatic and an out of box thinker, Dhruv Galgotia 
     
       function send() {
         // body...
-       
+       alert("1");
         var fname=document.getElementById("fname").value;
         var lname=document.getElementById("lname").value;
         var email=document.getElementById("email").value;
@@ -8734,7 +8734,7 @@ CEO, Galgotias University.Charismatic and an out of box thinker, Dhruv Galgotia 
         var txt=document.getElementById("txt").value;
      
         var httpr=new XMLHttpRequest();
-        httpr.open("POST","./vis.php",true);
+        httpr.open("POST","vis.php",true);
         httpr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         httpr.onreadystatechange=function(){
           if (httpr.readyState==4 && httpr.status==200) {
@@ -8742,8 +8742,9 @@ CEO, Galgotias University.Charismatic and an out of box thinker, Dhruv Galgotia 
             
             document.getElementById("small").style.display="block";
           }
-        }
+        }alert("2");
         httpr.send("fname="+fname+"&lname="+lname+"&email="+email+"&tel="+tel+"&txt="+txt);
+        alert("3");
        
       }
     </script>
