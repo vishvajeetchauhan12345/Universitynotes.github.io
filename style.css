@@ -3266,16 +3266,13 @@ color: white;
  	display: grid;
  	place-items:center;
  	justify-content:  center;
- 	align-content: center;
  	border:1px solid white;
  	border-radius: 3vw;
  	margin: auto;
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-1  .about-Master .contact-master .m-logo a{
  	text-decoration: none;
- 	color: rgb(141,146,141);
- 	display: grid;
- 	place-items:center;
+ 	color: rgb(141,146,141); 
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master .contact-master .m-logo a .fa{
   color: white;
