@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	background-size: cover;
 	background-position: center;
+
 }
 body{
 	margin: auto;
@@ -2648,7 +2649,7 @@ html{
  .Container-7{
  	width: 100vw;
  	height: 50vw;
- 	display: grid;
+ 	display: flex;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
