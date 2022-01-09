@@ -6,6 +6,7 @@
 	background-position: center;
 }
 body{
+	margin: auto;
 	width: 100vw;
 	height:auto;
 	background-color: #ddd;
@@ -44,7 +45,7 @@ html{
 	margin:auto;
 }
 .header-container *{
-	margin:all;
+	margin:auto;
 }
 .header-container .button-container{
 	width: 100vw;
@@ -61,7 +62,6 @@ html{
 	width: 60vw;
 	height: 5vw;
 	margin-left:0px;
-	margin-top: 0px;
 	display:inline-flex;
 	place-items:center;
 	justify-content: center;
@@ -73,13 +73,12 @@ html{
 }
 .header-container .button-container ul li{
 	background-color: transparent;
-	height: 4.5vw;
+	height: 5vw;
 	width: 10vw;
 	display: grid;
 	place-items:center;
 	justify-content: center;
 	align-content: center;
-	border-left: 0.15vw solid rgb(19, 18, 20);
 
 }
 .header-container .button-container ul li:last-child{
@@ -87,13 +86,12 @@ html{
 	transition: all 0.3s ease-in;
 }
 .header-container .button-container ul li:hover{
-	/*background-color: rgb(30, 5, 143);*/
+	background-color: rgb(30, 5, 143);
 	border:1px solid #ddd;
 }
 .header-container .button-container ul li a{
 	text-decoration: none;
-	/*color:rgb(139, 139, 142);*/
-	 color: white;
+	color:rgb(139, 139, 142);
 	font-size: 1.2vw;
 }
 .header-container .button-container ul li a .fa{
@@ -104,7 +102,6 @@ html{
 }
 .header-container .button-container ul li  .dropdown-container{
 	display: none;
-	position: absolute;
 }
 .header-container .button-container ul li:hover .dropdown-container{
 	display: grid;
@@ -115,8 +112,8 @@ html{
 	width: 20vw;
 	height:24vw;
 	background-color: rgb(19, 18, 72);
-	margin-left: 0vw;
-	margin-top: 4.7vw;
+	margin-right: -10vw;
+	margin-top: 28vw;
 	border-radius: 0vw 0vw 2vw 0vw;
 }
 .hover:hover .dropdown-container ul{
@@ -213,8 +210,8 @@ html{
 	position: absolute;
 	width: 20vw;
 	height: 24vw;
-	margin-left: 19.5vw;
-	margin-top: 1.5vw;
+	margin-left: 39.5vw;
+	margin-top: 20vw;
 	background-color: rgb(19, 18, 72);
 	outline: none;
 	border:none;
@@ -314,8 +311,8 @@ html{
 	position: absolute;
 	width: 20vw;
 	height: 24vw;
-	margin-left: 19.5vw;
-	margin-top: 1.5vw;
+	margin-left: 39.5vw;
+	margin-top: 20vw;
 	background-color: rgb(19, 18, 72);
 	outline: none;
 	border:none;
@@ -550,8 +547,8 @@ html{
 	position: absolute;
 	width: 20vw;
 	height: 30vw;
-	margin-left: 19.5vw;
-	margin-top: 1.5vw;
+	margin-left: 39.5vw;
+	margin-top: 20vw;
 	background-color: rgb(19, 18, 72);
 	outline: none;
 	border:none;
@@ -599,8 +596,8 @@ html{
 	position: absolute;
 	width: 20vw;
 	height: 9vw;
-	margin-left: 19.5vw;
-	margin-top: 1.5vw;
+	margin-left: 39.5vw;
+	margin-top: 5vw;
 	background-color: rgb(19, 18, 72);
 	outline: none;
 	border:none;
@@ -660,8 +657,8 @@ html{
 	width: 100vw;
 	height:30vw;
 	background-color: rgb(19, 18, 72);
-	margin-left: -20vw;
-	margin-top: 4.65vw;
+	margin-left: -00vw;
+	margin-top:35vw;
 	border:1px solid #ddd;
 }
 .result-hover:hover .dropdown-container-3 .Row-Container{
@@ -689,8 +686,7 @@ html{
 	height: 3vw;
 	display: grid;
 	place-items:center;
-	/*color:rgb(129, 129, 138);*/
-	color: white;
+	color:rgb(129, 129, 138);
 	font-size:1.6vw;
 }
 .Row-Container .Row-Col .Row-Col-list{
@@ -744,8 +740,8 @@ html{
 	width: 100vw;
 	height:30vw;
 	background-color: rgb(19, 18, 72);
-	margin-left: -30vw;
-	margin-top: 4.65vw;
+	margin-left: 30vw;
+	margin-top: 35vw;
 	border:1px solid #ddd;
 }
 .AdmitCard:hover .dropdown-container-4 .Row-Container-2{
@@ -773,8 +769,7 @@ html{
 	height: 3vw;
 	display: grid;
 	place-items:center;
-	/*color:rgb(129, 129, 138);*/
-	color: white;
+	color:rgb(129, 129, 138);
 	font-size:1.6vw;
 }
 .Row-Container-2 .Row-Col-2 .Row-Col-list-2{
@@ -830,7 +825,7 @@ html{
 	background-color: rgb(19, 18, 72);
 	margin-right: 0vw;
 	margin-left: -40vw;
-	margin-top: 4.6vw;
+	margin-top: 35vw;
 	border:1px solid #ddd;
 }
 
@@ -862,8 +857,7 @@ html{
 	place-items:center;
 	justify-content: center;
 	align-content: center;
-	/*color:rgb(129, 129, 138);*/
-	color: white;
+	color:rgb(129, 129, 138);
 	font-size:1.6vw;
 	margin: auto;
 }
@@ -898,18 +892,24 @@ html{
 	place-items:center;
 	animation-name: moveup;
 	animation-duration: 20s;
+	transition-delay: 0.02s;
+	animation-delay: 0.02s;
 	animation-iteration-count: infinite;
+	animation-play-state: initial;
+}
+.Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li a{
+	color: white;
 }
 .Row-Container-3 .Row-Col-3 .Row-Col-list-3 ul li:hover{
-	animation-play-state: paused;
+ animation-play-state: paused;
 }
 .Row-Container-3 .Row-Col-3 .Row-Col-list-31 ul li:hover{
-	animation-play-state: paused;
+ animation-play-state: paused;
 }
 @keyframes moveup{
 	from{transform: translateY(5vw);}
 	to{
-		transform: translateY(-35vw);
+		transform: translateY(-40vw);
 	}
 }
 
@@ -1063,8 +1063,9 @@ html{
 	width: 12vw;
 	height:21vw;
 	background-color: rgb(19, 18, 72);
-	margin-left: -2vw;
-	margin-top: 4.5vw;
+	margin-left: 0vw;
+	/*margin-top: 4.8vw;*/
+	margin-top: 25vw;
 	border-radius: 0vw 0vw 2vw 0vw;
 }
 .QP:hover .dropdown-container-6 ul{
@@ -1156,8 +1157,9 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 18vw;
-	margin-left: 11.5vw;
-	margin-top: 1.5vw;
+	margin-left: 26vw;
+	/*margin-top: 1.5vw;*/
+	margin-top: 15vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1196,8 +1198,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 15vw;
-	margin-left: 11.5vw;
-	margin-top: 0vw;
+	margin-left: 26vw;
+	margin-top: 12vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1237,8 +1239,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 24vw;
-	margin-left: 14.5vw;
-	margin-top: 0vw;
+	margin-left: 29.5vw;
+	margin-top: 21vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1280,8 +1282,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 30vw;
-	margin-left: 14.5vw;
-	margin-top: 1.5vw;
+	margin-left: 29.5vw;
+	margin-top: 20vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1323,8 +1325,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 9vw;
-	margin-left: 14.5vw;
-	margin-top: 0vw;
+	margin-left: 29.5vw;
+	margin-top: 5vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1366,8 +1368,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 12vw;
-	margin-left: 14.5vw;
-	margin-top: 1.5vw;
+	margin-left: 29.5vw;
+	margin-top: 9vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1410,8 +1412,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 18vw;
-	margin-left: 14.5vw;
-	margin-top: 0vw;
+	margin-left: 29.5vw;
+	margin-top: 9vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1453,8 +1455,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 3vw;
-	margin-left: 14.5vw;
-	margin-top: 0vw;
+	margin-left: 29.5vw;
+	margin-top:-20vv;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1496,8 +1498,8 @@ html{
 	position: absolute;
 	width: 10vw;
 	height: 24vw;
-	margin-left: 14.5vw;
-	margin-top: 1vw;
+	margin-left: 24vw;
+	margin-top: 21vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 	overflow: hidden;
@@ -1551,8 +1553,8 @@ html{
 	position: absolute;
 	width: 10vw;
 	height: 18vw;
-	margin-left: 14.5vw;
-	margin-top: 0vw;
+	margin-left: 24vw;
+	margin-top: 15vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 	overflow: hidden;
@@ -1573,7 +1575,7 @@ html{
 	text-align: center;
 	float: left;
 	color:rgb(136,136,142);
-	font-size: 1.0vw;
+	font-size: 0.8vw;
 }
 .Qp-hover-3:hover .Qpsub-menu-1 dl dd{
 	width: 10vw;
@@ -1606,8 +1608,8 @@ html{
 	position: absolute;
 	width: 10vw;
 	height: 18vw;
-	margin-left: 14.5vw;
-	margin-top: -1vw;
+	margin-left: 24vw;
+	margin-top: 15vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 	overflow: hidden;
@@ -1661,8 +1663,8 @@ html{
 	position: absolute;
 	width: 10vw;
 	height: 6vw;
-	margin-left: 14.5vw;
-	margin-top: -2vw;
+	margin-left: 24vw;
+	margin-top: 2vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 	overflow: hidden;
@@ -1716,8 +1718,8 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 3vw;
-	margin-left: 14.5vw;
-	margin-top: 0vw;
+	margin-left: 35vw;
+	margin-top: 30vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
 }
@@ -1759,7 +1761,7 @@ html{
 	position: absolute;
 	width: 15vw;
 	height: 45vw;
-	margin-left: 14.5vw;
+	margin-left: 29.5vw;
 	margin-top: -22vw;
 	background-color: rgb(19, 18, 72);	
 	border-radius: 0vw 0vw 2vw 0vw;
@@ -1821,28 +1823,9 @@ html{
 	width: 25vw;
 	height: 25vw;
 	border-radius: 25vw;
-	/*z-index: 1;
-	box-shadow: 0vw 0.3vw 2.8vw 0.3vw #ddd;
-	animation-name: icon;
-	animation-play-state: running;
-	animation-duration: 10s;
-	animation-iteration-count: initial;
-	transform: rotate3d(120,120,210);
-	animation-delay: 0.6s;*/
-}/*
-@keyframes icon{
-	from{
-		transform: rotateZ(360deg);
-		transform: rotateY(360deg);
-	}
-	to{
-			transform: rotateZ(0deg);
-		transform: rotateY(0deg);
-	}
-	
-}*/
+}
 .header-container .discription-container{
-	width:70vw;
+	width:60vw;
 	height:15vw;
 	display: grid;
 	justify-content: center;
@@ -1850,16 +1833,15 @@ html{
 	place-items:center;
 }
 .header-container .discription-container header{
-	width:70vw;
+	width:60vw;
 	height: 5vw;
 	font-size: 2.4vw;
-	text-shadow: 0vw 0.3vw 0vw #ddd;
 	font-weight: bold;
-	font-family: verdana;
+	font-family: "Times New";
 	color: rgb(82, 12, 57);
 }
 .header-container .discription-container p{
-	width:70vw;
+	width:60vw;
 	height: 10vw;
 	font-size: 1.4vw;
 	font-weight: bold;
@@ -1867,7 +1849,6 @@ html{
 	/*color: rgb(66, 0, 3);
 	color: rgb(66, 66, 72);*/
 	color:white;
-	margin-top: 1.8vw;
 }
 
 .Container-2{
@@ -1916,8 +1897,6 @@ html{
  	color: white;
  	font-family: monospace;
  	margin-left: 2vw;
- 	z-index: 1;
- 	text-shadow: 0.4vw 0.4vw 1vw red;
  }
  .SlideShow-container .MySlides p.p2{
  	position: absolute;
@@ -1928,11 +1907,9 @@ html{
  	justify-content: center;
  	align-content: center;
  	font-size: 2.4vw;
- 	color:white;
+ 	color:black;
  	font-family: monospace;
  	margin-left: 2vw;
- 	z-index: 1;
- 	text-shadow: 0.4vw 0.4vw 1vw red;
  }
  .Container-2 .major-list-container{
  	width: 100vw;
@@ -2367,22 +2344,17 @@ html{
 }
 .Container-5 .Cont5-container-1 .Cont5-col:hover .aboutpic p{
     width: 25vw;
-	height: 46vw;
+	height: 50vw;
 	display: grid;
 	justify-content: center;
 	align-content: center;
 	place-items:center;
 	scale:0.6;
 	font-size: 1.8vw;
-	background-color:rgba(30,100,18,0.5);
-	text-align: center;
-	padding: 0.2vw;
-	color: white;
+	color: black;
 	animation-name: textmove;
 	animation-duration: 2.5s;
 	animation-iteration-count: initial;
-	z-index: 1;
-	box-shadow: 0vw 0.3vw 1.8vw 0vw  #ddd;
 	/*animation-delay:0.4s;
 	transition: all 0.2s ease-in;*/
 	overflow: hidden;
@@ -2454,7 +2426,7 @@ html{
 }
 .Container-5 .Cont5-container-2 .Cont5-col-2:hover .aboutpic p{
     width: 25vw;
-	height: 30vw;
+	height: 45vw;
 	display: grid;
 	justify-content: center;
 	align-content: center;
@@ -2465,14 +2437,9 @@ html{
 	animation-name: textmove1;
 	animation-duration: 2.5s;
 	animation-iteration-count: initial;
-	text-align: center;
-	padding: 0.2vw;
 	/*animation-delay:0.4s;
 	transition: all 0.2s ease-in;*/
 	overflow: hidden;
-	z-index: 1;
-	box-shadow: 0vw 0.3vw 1.8vw 0vw #ddd;
-	background-color: rgba(25,125,255,0.6);
 }
 
 @keyframes textmove1{
@@ -2681,9 +2648,7 @@ html{
  .Container-7{
  	width: 100vw;
  	height: 50vw;
- 	display: flex;
- 	justify-content: center;
- 	align-content: center;
+ 	display: grid;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2692,68 +2657,6 @@ html{
  	background-size: cover;
  	/*background-image: url(images/bgpic2.jpg);*/
  	background-color: rgb(209, 213, 209);
- }
- .Container-7 .Cont7-container-nov{
- 	width: 30vw;
-  	height: 40vw;
-  	display: grid;
-  	place-items:center;
-  	background-color: black;
-  	margin:auto;
- }
- .Container-7 .Cont7-container-nov .nov-card{
- 	width: 30vw;
-  	height: 20vw;
-  	display: flex;
-  	place-items:center;
-  	justify-content: center;
-  	background-color:transparent;
-  	margin: auto;
- }
- .Container-7 .Cont7-container-nov .nov-card .novcard-img{
- 	width: 14vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-7 .Cont7-container-nov .nov-card .novcard-img img{
- 	background-size: cover;
- 	width: 12vw;
-  	height: 14vw;
- 	background-position: center;
- 	box-shadow: 0px 2px 20px 0px #ddd;
- 	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-7 .Cont7-container-nov .nov-card .novcard-img img:hover{
- 	transform: scale(1.1);
- 	border:1px solid white;
- }
- .Container-7 .Cont7-container-nov .nov-card .novcard-discription{
- 	width: 15vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	padding: 0.3vw;
- }
- .Container-7 .Cont7-container-nov .nov-card .novcard-discription header{
- 	font-weight: bold;
- 	font-size: 1.4vw;
- 	color: white;
- 	width: 15vw;
-  	height: 1.8vw;
-  	display: grid;
-  	place-items:center;
- }
- .Container-7 .Cont7-container-nov .nov-card .novcard-discription p{
- 	font-weight: bold;
- 	font-size: 1.0vw;
- 	color: white;
- 	font-family: courier;
- 	width: 16vw;
-  	height: 15vw;
-  	display: grid;
-  	place-items:center;
  }
   .Container-7 .Cont7-container{
   	width: 50vw;
@@ -2815,8 +2718,7 @@ html{
  .Container-8{
  	width: 100vw;
  	height: 50vw;
- 	display: flex;
- 	justify-content: center;
+ 	display: grid;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2825,68 +2727,6 @@ html{
  	background-size: cover;
  /*	background-image: url(images/bgpic10.jpg);*/
  	background-color: rgb(209, 213, 209);
- }
- .Container-8 .Cont8-container-nov{
- 	width: 30vw;
-  	height: 40vw;
-  	display: grid;
-  	place-items:center;
-  	background-color: black;
-  	margin:auto;
- }
- .Container-8 .Cont8-container-nov .nov-card{
- 	width: 30vw;
-  	height: 20vw;
-  	display: flex;
-  	place-items:center;
-  	justify-content: center;
-  	background-color:transparent;
-  	margin: auto;
- }
- .Container-8 .Cont8-container-nov .nov-card .novcard-img{
- 	width: 14vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-8 .Cont8-container-nov .nov-card .novcard-img img{
- 	background-size: cover;
- 	width: 12vw;
-  	height: 14vw;
- 	background-position: center;
- 	box-shadow: 0px 2px 20px 0px #ddd;
- 	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-8 .Cont8-container-nov .nov-card .novcard-img img:hover{
- 	transform: scale(1.1);
- 	border:1px solid white;
- }
- .Container-8 .Cont8-container-nov .nov-card .novcard-discription{
- 	width: 15vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	padding: 0.3vw;
- }
- .Container-8 .Cont8-container-nov .nov-card .novcard-discription header{
- 	font-weight: bold;
- 	font-size: 1.2vw;
- 	color: white;
- 	width: 15vw;
-  	height: 1.8vw;
-  	display: grid;
-  	place-items:center;
- }
- .Container-8 .Cont8-container-nov .nov-card .novcard-discription p{
- 	font-weight: bold;
- 	font-size: 1.0vw;
- 	color: white;
- 	font-family: courier;
- 	width: 15vw;
-  	height: 15vw;
-  	display: grid;
-  	place-items:center;
  }
  .Container-8 .Cont8-container{
  	width: 50vw;
@@ -2944,8 +2784,7 @@ color: white;
  .Container-9{
  	width: 100vw;
  	height: 50vw;
- 	display: flex;
- 	justify-content: center;
+ 	display: grid;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -2954,68 +2793,6 @@ color: white;
  	background-size: cover;
  /*background-image: url(images/bgpic22.jpg);*/
  	background-color:rgb(209, 213, 209);
- }
- .Container-9 .Cont9-container-nov{
- 	width: 30vw;
-  	height: 40vw;
-  	display: grid;
-  	place-items:center;
-  	background-color: black;
-  	margin:auto;
- }
- .Container-9 .Cont9-container-nov .nov-card{
- 	width: 30vw;
-  	height: 20vw;
-  	display: flex;
-  	place-items:center;
-  	justify-content: center;
-  	background-color:transparent;
-  	margin: auto;
- }
- .Container-9 .Cont9-container-nov .nov-card .novcard-img{
- 	width: 14vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-9 .Cont9-container-nov .nov-card .novcard-img img{
- 	background-size: cover;
- 	width: 12vw;
-  	height: 14vw;
- 	background-position: center;
- 	box-shadow: 0px 2px 20px 0px #ddd;
- 	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-9 .Cont9-container-nov .nov-card .novcard-img img:hover{
- 	transform: scale(1.1);
- 	border:1px solid white;
- }
- .Container-9 .Cont9-container-nov .nov-card .novcard-discription{
- 	width: 15vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	padding: 0.3vw;
- }
- .Container-9 .Cont9-container-nov .nov-card .novcard-discription header{
- 	font-weight: bold;
- 	font-size: 1.2vw;
- 	color: white;
- 	width: 15vw;
-  	height: 1.8vw;
-  	display: grid;
-  	place-items:center;
- }
- .Container-9 .Cont9-container-nov .nov-card .novcard-discription p{
- 	font-weight: bold;
- 	font-size: 1.0vw;
- 	color: white;
- 	font-family: courier;
- 	width: 15vw;
-  	height: 15vw;
-  	display: grid;
-  	place-items:center;
  }
  .Container-9 .Cont9-container{
  	width: 50vw;
@@ -3068,7 +2845,7 @@ color: white;
  .Container-10{
  	width: 100vw;
  	height: 50vw;
- 	display: flex;
+ 	display: grid;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -3077,68 +2854,6 @@ color: white;
  	background-size: cover;
  /*	background-image: url(images/bgpic24.jpg);*/
  	background-color: rgb(209, 213, 209);
- }
- .Container-10 .Cont10-container-nov{
- 	width: 30vw;
-  	height: 40vw;
-  	display: grid;
-  	place-items:center;
-  	background-color: black;
-  	margin:auto;
- }
- .Container-10 .Cont10-container-nov .nov-card{
- 	width: 30vw;
-  	height: 20vw;
-  	display: flex;
-  	place-items:center;
-  	justify-content: center;
-  	background-color:transparent;
-  	margin: auto;
- }
- .Container-10 .Cont10-container-nov .nov-card .novcard-img{
- 	width: 14vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-10 .Cont10-container-nov .nov-card .novcard-img img{
- 	background-size: cover;
- 	width: 12vw;
-  	height: 14vw;
- 	background-position: center;
- 	box-shadow: 0px 2px 20px 0px #ddd;
- 	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-10 .Cont10-container-nov .nov-card .novcard-img img:hover{
- 	transform: scale(1.1);
- 	border:1px solid white;
- }
- .Container-10 .Cont10-container-nov .nov-card .novcard-discription{
- 	width: 15vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	padding: 0.3vw;
- }
- .Container-10 .Cont10-container-nov .nov-card .novcard-discription header{
- 	font-weight: bold;
- 	font-size: 1.4vw;
- 	color: white;
- 	width: 15vw;
-  	height: 1.8vw;
-  	display: grid;
-  	place-items:center;
- }
- .Container-10 .Cont10-container-nov .nov-card .novcard-discription p{
- 	font-weight: bold;
- 	font-size: 1.0vw;
- 	color: white;
- 	font-family: courier;
- 	width: 15vw;
-  	height: 15vw;
-  	display: grid;
-  	place-items:center;
  }
  .Container-10 .Cont10-container{
  	width: 50vw;
@@ -3191,7 +2906,7 @@ color: white;
  .Container-11{
  	width: 100vw;
  	height: 50vw;
- 	display: flex;
+ 	display: grid;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -3200,68 +2915,6 @@ color: white;
  	background-size: cover;
  	/*background-image: url(images/bgpic8.jpg);*/
  	background-color: rgb(209, 213, 209);
- }
- .Container-11 .Cont11-container-nov{
- 	width: 30vw;
-  	height: 40vw;
-  	display: grid;
-  	place-items:center;
-  	background-color: black;
-  	margin:auto;
- }
- .Container-11 .Cont11-container-nov .nov-card{
- 	width: 30vw;
-  	height: 20vw;
-  	display: flex;
-  	place-items:center;
-  	justify-content: center;
-  	background-color:transparent;
-  	margin: auto;
- }
- .Container-11 .Cont11-container-nov .nov-card .novcard-img{
- 	width: 14vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-11 .Cont11-container-nov .nov-card .novcard-img img{
- 	background-size: cover;
- 	width: 12vw;
-  	height: 14vw;
- 	background-position: center;
- 	box-shadow: 0px 2px 20px 0px #ddd;
- 	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-11 .Cont11-container-nov .nov-card .novcard-img img:hover{
- 	transform: scale(1.1);
- 	border:1px solid white;
- }
- .Container-11 .Cont11-container-nov .nov-card .novcard-discription{
- 	width: 15vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	padding: 0.3vw;
- }
- .Container-11 .Cont11-container-nov .nov-card .novcard-discription header{
- 	font-weight: bold;
- 	font-size: 1.4vw;
- 	color: white;
- 	width: 15vw;
-  	height: 1.8vw;
-  	display: grid;
-  	place-items:center;
- }
- .Container-11 .Cont11-container-nov .nov-card .novcard-discription p{
- 	font-weight: bold;
- 	font-size: 1.0vw;
- 	color: white;
- 	font-family: courier;
- 	width: 15vw;
-  	height: 15vw;
-  	display: grid;
-  	place-items:center;
  }
  .Container-11 .Cont11-container{
  	width: 50vw;
@@ -3315,7 +2968,7 @@ color: white;
  .Container-12{
  	width: 100vw;
  	height: 50vw;
- 	display: flex;
+ 	display: grid;
  	place-items:center;
  	justify-content: center;
  	align-content: center;
@@ -3324,68 +2977,6 @@ color: white;
  	background-size: cover;
  	/*background-image: url(images/bgpic5.jpg);*/
  	background-color: rgb(209, 213, 209);
- }
- .Container-12 .Cont12-container-nov{
- 	width: 30vw;
-  	height: 40vw;
-  	display: grid;
-  	place-items:center;
-  	background-color: black;
-  	margin:auto;
- }
- .Container-12 .Cont12-container-nov .nov-card{
- 	width: 30vw;
-  	height: 20vw;
-  	display: flex;
-  	place-items:center;
-  	justify-content: center;
-  	background-color:transparent;
-  	margin: auto;
- }
- .Container-12 .Cont12-container-nov .nov-card .novcard-img{
- 	width: 14vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-12 .Cont12-container-nov .nov-card .novcard-img img{
- 	background-size: cover;
- 	width: 12vw;
-  	height: 14vw;
- 	background-position: center;
- 	box-shadow: 0px 2px 20px 0px #ddd;
- 	border-radius: 0.6vw 0vw 0.6vw;
- }
- .Container-12 .Cont12-container-nov .nov-card .novcard-img img:hover{
- 	transform: scale(1.1);
- 	border:1px solid white;
- }
- .Container-12 .Cont12-container-nov .nov-card .novcard-discription{
- 	width: 15vw;
-  	height: 18vw;
-  	display: grid;
-  	place-items:center;
-  	padding: 0.3vw;
- }
- .Container-12 .Cont12-container-nov .nov-card .novcard-discription header{
- 	font-weight: bold;
- 	font-size: 1.4vw;
- 	color: white;
- 	width: 15vw;
-  	height: 1.8vw;
-  	display: grid;
-  	place-items:center;
- }
- .Container-12 .Cont12-container-nov .nov-card .novcard-discription p{
- 	font-weight: bold;
- 	font-size: 1.0vw;
- 	color: white;
- 	font-family: courier;
- 	width: 15vw;
-  	height: 15vw;
-  	display: grid;
-  	place-items:center;
  }
  .Container-12 .Cont12-container{
  	width: 50vw;
@@ -3534,7 +3125,6 @@ color: white;
   	overflow: hidden;
    }
    .Container-13 .Custom form fieldset #small{
-   	display: none;
    	font-size: 1.0;
    	color: red;
    }
@@ -3640,9 +3230,6 @@ color: white;
  	height: 15vw;
  	display: grid;
  	place-items:center;
- 	/*background-image: url(vish.jpg);
- 	background-size: cover;
- 	border-radius: 15vw;*/
  }
   .Container-14 .Cont14-row-1 .Cont14-Col-1 .Master .fa{
   	font-size: 15vw;
@@ -3656,7 +3243,7 @@ color: white;
   	transition: all 0.3s ease-in;
   }
   .Container-14 .Cont14-row-1:hover .Cont14-Col-1:hover .Master .fa:hover{
-  	transform: scale(1.18);
+  	transform: scale(1.2);
   }
 .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master{
  	width: 25vw;
@@ -3685,8 +3272,7 @@ color: white;
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-1  .about-Master .contact-master .m-logo a{
  	text-decoration: none;
- 	/*color: rgb(141,146,141);*/
- 	color:white;
+ 	color: rgb(141,146,141);
  	display: grid;
  	place-items:center;
 }
@@ -3711,8 +3297,7 @@ color: white;
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master p{
  	font-size: 1.2vw;
  	font-family: monospace;
- 	/*color: rgb(141,146,141);*/
- 	color: white;
+ 	color: rgb(141,146,141);
  } 
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master  a{
  	text-decoration: none;
@@ -3725,13 +3310,12 @@ color: white;
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master address{
  	font-size: 1.2vw;
  	font-family: monospace;
- 	/*color: rgb(141,146,141);*/
- 	color: white;
+ 	color: rgb(141,146,141);
  }
  .Container-14 .Cont14-row-1 .Cont14-Col-1 .about-Master header{
  	font-size: 1.6vw;
  	font-family: monospace;
- 	/*color: rgb(141,146,141);*/
+ 	color: rgb(141,146,141);
  	font-weight: bold;
  } 
   .Container-14 .Cont14-row-1 .Cont14-Col-1:hover .about-Master p{
@@ -3763,8 +3347,7 @@ color: white;
 	place-items:center;
 	font-size: 2.2vw;
  	font-weight: bold;
- 	/*color: rgb(141,146,141);*/
- 	color: white;
+ 	color: rgb(141,146,141);
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-2 .Col2-row header .fa{
 	margin-left: 23vw;
@@ -3788,8 +3371,7 @@ color: white;
 .Container-14 .Cont14-row-1 .Cont14-Col-2 .Col2-row ul li a{
 	text-decoration: none;
 	font-size: 1.2vw;
- 	/*color: rgb(141,146,141);*/
- 	color: white;
+ 	color: rgb(141,146,141);
 }
 .Container-14 .Cont14-row-1 .Cont14-Col-2 .Col2-row ul li:hover a{
 	border-bottom:1px solid white;
@@ -3826,8 +3408,7 @@ color: white;
 	place-items:center;
 	font-size: 1.2vw;
  	font-family: monospace;
- 	/*color: rgb(141,146,141);*/
- 	color: white;
+ 	color: rgb(141,146,141);
  	overflow-y: hidden;
 }
  /*bottom container*/
@@ -3858,8 +3439,7 @@ color: white;
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 .Cont14-header header{
    font-size: 2.2vw;
-   /*color: rgb(141,146,141);*/
-   color: white;
+   color: rgb(141,146,141);
    font-weight: bold;
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 .Cont14-header .fa{
@@ -3887,8 +3467,7 @@ color: white;
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 ul li a{
 	text-decoration: none;
 	font-size: 1.3vw;
-   /*color: rgb(141,146,141);*/
-   color: white;
+   color: rgb(141,146,141);
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-1 ul li a .fa{
 	margin-left: 10px;
@@ -3936,8 +3515,7 @@ transition: all 0.3s ease-in;
   	display: grid;
   	place-items:center;
   	font-size: 1.3vw;
-    /*color: rgb(141,146,141);*/
-    color: white;
+    color: rgb(141,146,141);
 }
 .Container-14 .Cont14-row-2 .Cont14-row2-Col-2 .university-about p .fa{
 	font-size: 2.4vw;
